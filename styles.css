@@ -55,3 +55,30 @@ ul {
   background-position: center;
   background-size: contain;
 }
+
+/* Styles for small devices */
+
+p{
+  width:90%;
+  margin:auto;
+}
+
+  img{
+    width:100%;
+  }
+
+/* Styles for devices wider than 700px */
+
+{
+  p{
+    width:45%;
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: auto;
+  }
+
+   img{
+     width:50%;
+   }
+   
+  }
